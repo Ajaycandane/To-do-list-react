@@ -1,0 +1,60 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #1c1c1e;
+}
+
+.app {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  background-color: #1c1c1e;
+  color: #fff;
+  font-size: 3em;
+}
+
+.todo-list {
+  margin: 0 auto;
+  max-width: 800px;
+  width: 1000%;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 25px;
+  background-color: #2c2c2e;
+}
+
+.todo .todo-text {
+  flex: 1;
+  margin-right: 20px;
+  color: #fff;
+}
+
+.todo .todo-actions {
+  display: flex;
+  align-items: center;
+}
+
+.todo .todo-actions button {
+  margin-left: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #3c3c3e;
+  color: #fff;
+}
+
+.todo .todo-actions button:hover {
+  background-color: #4c4c4e;
+}
